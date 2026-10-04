@@ -151,7 +151,7 @@ body {
 }
 
 #dual-trem-page {
-    background-color: #ffd3a5;
+    background-color: #fed8b1;
 }
 
 .project-page {
@@ -264,16 +264,18 @@ td a:hover {
 }
 
 .phase {
-    width: 50%;
+    width: 70%;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 200px;
+    grid-template-columns: minmax(0, 1fr) 300px;
     gap: 30px;
-    align-items: start;
+    align-items: center;
     margin-bottom: 50px;
+    text-align: center;
+
 }
 
 .phase-left {
-    grid-template-columns: 200px minmax(0, 1fr);
+    grid-template-columns: 300px minmax(0, 1fr);
 }
 
 .phase-right {
@@ -297,7 +299,7 @@ td a:hover {
 }
 
 .phase-image {
-    width: 200px;
+    width: 300px;
 }
 
 .phase-image img {
