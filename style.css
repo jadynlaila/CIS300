@@ -131,7 +131,7 @@ body {
 }
 
 .footer {
-    margin-top: 65px;
+    margin-top: 40px;
     text-align: center;
     font-size: 15px;
     line-height: 1;
@@ -151,7 +151,7 @@ body {
 }
 
 #dual-trem-page {
-    background-color: lightgoldenrodyellow;
+    background-color: #ffd3a5;
 }
 
 .project-page {
@@ -249,6 +249,14 @@ body {
     min-width: 420px;
 }
 
+td a {
+    color: #111;
+    text-decoration: none;
+}
+td a:hover {
+    opacity: 0.55;
+}
+
 .materials-header th {
     font-weight: normal;
     text-align: left;
@@ -316,7 +324,6 @@ body {
     width: 100%;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 80px;
 }
 
 .sources h2 {
